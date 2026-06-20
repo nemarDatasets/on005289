@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005289",
-  "source": "openneuro",
-  "source_id": "ds005289",
+  "pipeline_stage": "validated",
   "title": "39 By BP",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,64 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005289.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1111/nyas.14587",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005289",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005289",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises laser-evoked pain responses from 39 participants who received calibrated nociceptive stimulation and provided subjective pain intensity and unpleasantness ratings. Participants rated pain on a 0-10 numeric rating scale following each of 10 laser stimulations, with stimulation intensity individually calibrated to produce an average pain rating of 7. The dataset supports investigation of pain perception mechanisms and individual differences in nociceptive processing.",
+  "methods_description": "Laser stimuli of varying intensities were delivered to participants. Individual stimulation intensity was calibrated such that participants rated pain at approximately 7/10. Each participant received 10 laser stimulations. Pain intensity and unpleasantness were rated on a 0-10 numeric rating scale via mouse-click response on a screen display. A 5-second inter-stimulus interval separated stimulation and rating phases, with subsequent trials initiated 5 seconds after rating completion.",
+  "keywords": [
+    {
+      "term": "laser-evoked potentials"
+    },
+    {
+      "term": "pain perception"
+    },
+    {
+      "term": "nociception"
+    },
+    {
+      "term": "psychophysics"
+    },
+    {
+      "term": "pain rating"
+    }
+  ],
+  "source_hash": "c5994752f61ea2536398697ab4799ab438829b921eb2028fde6cb9ff2a9a026d"
 }
