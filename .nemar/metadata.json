@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "39 By BP",
-  "description": "This dataset comprises neuroimaging and behavioral data from a laser-evoked pain study involving 39 participants. Subjects received calibrated laser stimulations and provided subjective pain intensity and unpleasantness ratings on numeric rating scales. The study investigates the neural mechanisms underlying pain perception and potentially movement-induced hypoalgesia, with concurrent recording of physiological responses to noxious stimuli.",
-  "methods_description": "Participants underwent a calibration phase to determine individual laser intensity thresholds corresponding to a pain rating of 7. Subsequently, each participant received 10 laser stimulations while maintaining visual fixation on a crosshair. Pain intensity and unpleasantness were rated on 0-10 numeric rating scales via mouse-click responses. Inter-trial intervals were randomized at 5 seconds following rating completion.",
+  "description": "This dataset comprises neurophysiological recordings from 39 participants who received calibrated laser stimuli while rating pain intensity and unpleasantness. Participants underwent a standardized pain assessment protocol involving laser stimulation at individually-determined energy levels, followed by subjective pain ratings on a 0-10 numeric rating scale. The dataset supports investigation of pain perception mechanisms and the relationship between nociceptive stimulation and subjective pain experience.",
+  "methods_description": "Laser stimuli of varying intensities were administered to participants. Individual pain thresholds were determined by identifying the energy intensity corresponding to an average pain rating of 7. Each participant received 10 laser stimulations and rated pain intensity and unpleasantness on a numeric rating scale (0-10) via mouse-click responses on a screen. Participants were instructed to maintain visual fixation on a crosshair, with 5-second intervals between stimulation and rating, and randomized inter-trial intervals of 5 seconds following pain ratings.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,26 +17,19 @@
   },
   "keywords": [
     {
-      "term": "Pain Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
+      "term": "pain perception"
     },
     {
-      "term": "laser-evoked potentials"
+      "term": "laser stimulation"
     },
     {
-      "term": "Nociception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+      "term": "nociception"
     },
     {
-      "term": "neuroimaging"
+      "term": "subjective pain rating"
     },
     {
-      "term": "psychophysics"
-    },
-    {
-      "term": "human subjects"
+      "term": "neurophysiology"
     }
   ],
   "related_identifiers": [
